@@ -9,6 +9,7 @@ class AnswerService:
         self.settings = load_settings()
         self.client = OpenAI(
             api_key=self.settings.openai_api_key,
+            base_url=self.settings.api_base,
             timeout=60.0,
             max_retries=3,
         )

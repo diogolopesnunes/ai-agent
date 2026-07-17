@@ -8,6 +8,7 @@ load_dotenv()
 
 @dataclass(frozen=True)
 class Settings:
+    api_base: str
     openai_api_key: str
     model_name: str
     embedding_model: str
@@ -23,7 +24,10 @@ def load_settings() -> Settings:
     if not api_key:
         raise RuntimeError("OPENAI_API_KEY não foi configurada.")
 
-    return Settings(
+    api_base = os.getenv("OPENAI_API_BASE", "https://openrouter.ai/api/v1")
+
+    settings = Settings(
+        api_base=api_base,
         openai_api_key=api_key,
         model_name=os.getenv("OPENAI_MODEL", "gpt-5.4-nano"),
         embedding_model=os.getenv(
@@ -37,3 +41,10 @@ def load_settings() -> Settings:
             os.getenv("CLASSIFIER_CONFIDENCE_MIN", "0.65")
         ),
     )
+
+    # Export to environment so libraries (langchain, openai) pick up the base and key
+    if settings.api_base:
+        os.environ.setdefault("OPENAI_API_BASE", settings.api_base)
+    os.environ.setdefault("OPENAI_API_KEY", settings.openai_api_key)
+
+    return settings
