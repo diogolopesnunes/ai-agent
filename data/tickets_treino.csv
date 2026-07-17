@@ -1,0 +1,61 @@
+texto,urgencia
+"Servidor indisponível para todos os usuários",alta
+"Erro no pagamento bloqueando vendas",alta
+"Sistema principal está fora do ar",alta
+"Nenhum funcionário consegue acessar o sistema",alta
+"Aplicação parou de responder para toda a empresa",alta
+"Clientes não conseguem concluir pagamentos",alta
+"Falha no checkout está impedindo novas compras",alta
+"Banco de dados de produção está indisponível",alta
+"Todas as filiais perderam acesso ao sistema",alta
+"Serviço de autenticação está fora do ar",alta
+"Usuários não conseguem entrar em suas contas",alta
+"Pedidos estão sendo cobrados em duplicidade",alta
+"Dados importantes desapareceram do sistema",alta
+"Sistema está excluindo registros automaticamente",alta
+"Portal de vendas está completamente indisponível",alta
+"Erro crítico impede a emissão de notas fiscais",alta
+"Produção foi interrompida por uma falha no sistema",alta
+"Informações confidenciais estão visíveis para usuários não autorizados",alta
+"Todas as integrações com o sistema financeiro falharam",alta
+"Um ataque está bloqueando o acesso à aplicação",alta
+"Lentidão em um relatório secundário",media
+"Integração atrasou a sincronização",media
+"Relatório mensal demora muito para carregar",media
+"Sincronização de clientes está com atraso",media
+"Algumas imagens não aparecem corretamente no painel",media
+"Exportação de dados demora mais que o normal",media
+"Notificações estão chegando com atraso",media
+"Uma funcionalidade específica apresenta lentidão",media
+"Alguns usuários não conseguem gerar relatórios",media
+"Integração externa falha de forma intermitente",media
+"O sistema apresenta erro apenas em determinados navegadores",media
+"Um relatório mostra valores desatualizados",media
+"Cadastro de produtos demora para ser atualizado",media
+"Busca de clientes está apresentando lentidão",media
+"Arquivos exportados estão com formatação incorreta",media
+"Alguns pedidos não aparecem imediatamente no painel",media
+"O envio de e-mails está demorando vários minutos",media
+"Usuários relatam travamentos ocasionais na aplicação",media
+"Uma tela específica não carrega para parte da equipe",media
+"O sistema perde a conexão algumas vezes durante o dia",media
+"Como alterar a foto do perfil?",baixa
+"Onde encontro o manual de exportação?",baixa
+"Como mudar minha senha de acesso?",baixa
+"Onde posso atualizar meus dados pessoais?",baixa
+"Como trocar o idioma do sistema?",baixa
+"Existe um manual para novos usuários?",baixa
+"Como criar uma assinatura de e-mail?",baixa
+"Onde encontro os relatórios antigos?",baixa
+"Como personalizar as cores do painel?",baixa
+"Posso alterar o nome exibido no meu perfil?",baixa
+"Como baixar uma cópia de um relatório?",baixa
+"Onde encontro a política de senhas?",baixa
+"Como ativar as notificações por e-mail?",baixa
+"Qual é o procedimento para exportar dados?",baixa
+"Como adicionar uma foto à minha conta?",baixa
+"Onde posso consultar os treinamentos disponíveis?",baixa
+"Como organizar os atalhos da tela inicial?",baixa
+"Qual navegador é recomendado para usar o sistema?",baixa
+"Como consultar o histórico de acessos?",baixa
+"Onde encontro as perguntas frequentes?",baixa

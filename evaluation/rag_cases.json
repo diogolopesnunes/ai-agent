@@ -1,0 +1,12 @@
+[
+  {
+    "question": "Como redefinir a senha?",
+    "expected_source": "politica_senhas.md",
+    "must_abstain": false
+  },
+  {
+    "question": "Qual é a cotação do dólar agora?",
+    "expected_source": null,
+    "must_abstain": true
+  }
+]

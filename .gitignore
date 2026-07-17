@@ -1,0 +1,9 @@
+.venv/
+.env
+__pycache__/
+*.pyc
+*.joblib
+data/chroma/
+data/support.db
+logs/*.jsonl
+.streamlit/secrets.toml

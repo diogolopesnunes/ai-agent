@@ -1,0 +1,17 @@
+openai
+pydantic>=2
+python-dotenv
+pandas
+scikit-learn
+joblib
+langchain
+langchain-openai
+langchain-community
+langchain-chroma
+langchain-text-splitters
+langgraph
+chromadb
+tiktoken
+mcp[cli]>=1.2,<2
+streamlit
+pytest
